@@ -14,7 +14,7 @@ ingrese su selecciòn
 
 $op=$_REQUEST['operacion'];
 switch ($op) {
-	case 1:
+	case 1
 	break;
 	
 	case 5:
