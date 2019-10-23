@@ -1,0 +1,26 @@
+
+<form action="" method=post>
+<select name=operacion>
+	<option value=0>seleccione una</option>
+	<option value=1>suma</option>
+	<option value=2>resta</option>
+	<option value=3>multiplicacion</option>
+	<option value=4>division</option>
+	<option value=5>raiz cuadrada</option>
+</select>
+<input type=submit value="sleccionar operacion">
+</form>
+<?php
+
+$op=$_REQUEST['operacion'];
+switch ($op) {
+	case 1:
+	break;
+		
+	default:
+		echo "no coincide la seleccion";
+		break;
+}
+
+
+?>
