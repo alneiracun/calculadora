@@ -16,7 +16,13 @@ $op=$_REQUEST['operacion'];
 switch ($op) {
 	case 1:
 	break;
-		
+	
+	case 5:
+		$num = 25;
+		$raiz_cuadrada = sqrt ($num);
+		echo "La raíz cuadrada de $num es $raiz_cuadrada";
+	break;
+
 	default:
 		echo "no coincide la seleccion";
 		break;
