@@ -1,4 +1,4 @@
-
+ingrese su selecciòn
 <form action="" method=post>
 <select name=operacion>
 	<option value=0>seleccione una</option>
